@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { EquationComponent } from './equation/equation.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { AnswerHighligthDirective } from './answer-highligth.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EquationComponent
+    EquationComponent,
+    AnswerHighligthDirective
   ],
   imports: [
     BrowserModule,
